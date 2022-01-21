@@ -7,7 +7,7 @@
     <title>GRID</title>
     <style>
         body{
-            background-color: Blue;
+            background-color: rgb(222, 241, 133);
         }
         #container{
             width: 100%;
@@ -22,7 +22,7 @@
             grid-column-end: 5;
             grid-row-start: 1;
             grid-row-end: 3;
-            background-color: brown;
+            background-color: rgb(190, 68, 95);
 
         }
         #m2{
@@ -38,9 +38,167 @@
             grid-column-end: 17;
             grid-row-start: 1;
             grid-row-end: 3;
-            background-color: gray;
+            background-color: rgb(124, 206, 142);
 
         }
+        #m4{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 7;
+            background-color: hotpink ;
+        }
+        #m5{
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start:3 ;
+            grid-row-end: 5 ;
+            background-color: indigo;
+        }
+        #m6{
+            grid-column-start: 3;
+            grid-column-end: 8;
+            grid-row-start:5 ;
+            grid-row-end: 9;
+            background-color: lemonchiffon;
+
+        }
+        #m7{
+            grid-column-start: 5;
+            grid-column-end: 7;
+            grid-row-start:3 ;
+            grid-row-end: 5;
+            background-color: red;
+
+        }
+        #m8{
+            grid-column-start: 7;
+            grid-column-end: 11;
+            grid-row-start:10 ;
+            grid-row-end: 15;
+            background-color: purple;
+
+        }   
+        #m9{
+            grid-column-start: 10;
+            grid-column-end: 11;
+            grid-row-start:3 ;
+            grid-row-end: 10;
+            background-color: orange;
+
+        }
+        #m10{
+            grid-column-start: 1;
+            grid-column-end: 7;
+            grid-row-start:9 ;
+            grid-row-end: 16;
+            background-color: turquoise;
+
+        }
+        #m11{
+            grid-column-start: 7;
+            grid-column-end: 10;
+            grid-row-start:3 ;
+            grid-row-end: 5;
+            background-color: blue;
+
+        }
+
+        @media (max-width: 1024px) {
+            body, #container{
+                background-color:  rgb(219, 233, 21);
+            }
+           #container{
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(10, 1fr);
+            }
+            #m1{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            #m2{
+                grid-column-start: 3;
+                grid-column-end: 5;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            #m3{
+                grid-column-start: 5;
+                grid-column-end: 7;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            #m4{
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 5;
+            }
+            #m5{
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+            #m6{
+                grid-column-start: 2;
+                grid-column-end: 4;
+                grid-row-start: 3;
+                grid-row-end: 6;
+            }
+            #m7{
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+            #m8{
+                grid-column-start: 3;
+                grid-column-end: 6;
+                grid-row-start: 7;
+                grid-row-end: 9;
+            }
+            #m9{
+            grid-column-start: 5;
+            grid-column-end: 6;
+            grid-row-start:2 ;
+            grid-row-end: 7;
+            background-color: orange;
+
+            }
+            #m10{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start:6 ;
+                grid-row-end: 10;
+                background-color: turquoise;
+
+            }
+            #m11{
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start:2 ;
+                grid-row-end: 3;
+                background-color: blue;
+
+            }
+
+        }
+
+        @media (max-width: 600px) {
+            body, #container{
+                background-color:  rgb(190, 68, 95);
+            }
+        }
+
+      
+      
+
+
+
 
     
     
@@ -50,7 +208,17 @@
    <div id="container">
    <div id="m1"></div>
    <div id="m2"></div>
-   <div id="m3"></div>
+   <div id="m3"> </div>
+   <div id="m4"></div>
+   <div id="m5"></div>
+   <div id="m6"></div>
+   <div id="m7"></div>
+   <div id="m8"></div>
+   <div id="m9"></div>
+   <div id="m10"></div>
+   <div id="m11"></div>
+    
+   
 </div> 
 </div>
     
